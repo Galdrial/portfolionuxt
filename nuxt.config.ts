@@ -25,6 +25,7 @@ export default defineNuxtConfig({
   app: {
     pageTransition: { name: 'page', mode: 'out-in' },
     head: {
+      htmlAttrs: { lang: 'it' },
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1',
       link: [
