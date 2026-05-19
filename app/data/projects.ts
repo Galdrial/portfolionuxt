@@ -17,6 +17,21 @@ export const projects: Project[] = [
     longDescription: 'Testo lungo per la pagina di dettaglio...',
   },
   {
+    id: 10,
+    slug: 'italy-job-hunter',
+    title: 'Italy Job Hunter',
+    category: 'Node.js',
+    description:
+      'Agente AI che automatizza la ricerca di lavoro in Italia. Scansiona annunci ogni mattina, li filtra con LLaMA e li analizza con DeepSeek rispetto al CV, inviando il report su Telegram.',
+    image: '/images/italy-job-hunter.png',
+    tags: ['Node.js', 'AI', 'Automation', 'GitHub Actions'],
+    link: 'https://github.com/Galdrial/italy-job-hunter',
+    featured: true,
+    github: 'https://github.com/Galdrial/italy-job-hunter',
+    year: 2026,
+    longDescription: 'Testo lungo per la pagina di dettaglio...',
+  },
+  {
     id: 2,
     slug: 'hundredpath',
     title: 'HundredPath',
@@ -41,7 +56,7 @@ export const projects: Project[] = [
     image: '/images/includo.png',
     tags: ['React', 'AI Chatbot', 'Node.js', 'UX'],
     link: 'https://includo-guide.vercel.app',
-    featured: false,
+    featured: true,
     github: 'https://github.com/Galdrial/includo-guide',
     year: 2026,
     longDescription: 'Testo lungo per la pagina di dettaglio...',
@@ -86,7 +101,7 @@ export const projects: Project[] = [
     image: '/images/sunnee.png',
     tags: ['Vue 3', 'Configurator', 'CSS'],
     link: 'https://sunnee.vercel.app',
-    featured: false,
+    featured: true,
     github: 'https://github.com/Galdrial/sunnee',
     year: 2025,
     longDescription: 'Testo lungo per la pagina di dettaglio...',
@@ -136,4 +151,5 @@ export const projects: Project[] = [
     year: 2025,
     longDescription: 'Testo lungo per la pagina di dettaglio...',
   },
+  
 ]
